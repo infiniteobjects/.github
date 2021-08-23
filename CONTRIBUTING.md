@@ -35,12 +35,14 @@
 
 #### Commits
 
+- We will strive to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - We will have descriptive, meaningful commit messages
 - We will spell check our commits so that they look good in our change log
+- We will prefix the commit message with the type
+	- (e.g) `fix:`, `feat:`, `docs:` or others from Conventional Commits
 - We will start our commits with a present tense verb
 	- (e.g) Adds product description component
 - We will not check in anything that outputs any warnings in the console or terminal output
-- We will strive to follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ## Pull Requests
 
