@@ -11,6 +11,8 @@
 - We will only submit our changes via opening Pull Requests
 - We will post all new Pull Requests to #io-pull-requests
 - We will strive to make a single Pull Requests encompass 1 piece of functionality.
+- We will use GitHub for tracking code reviews
+- We will use Pivotal Tracker for tracking all other reviews (design, testing/QA, etc.)
 - Pull Requests by a single developer needs 2 approvals.
 - Pull Requests by a pair needs 1 approval.
 - Authors cannot approve their own Pull Requests.
