@@ -36,7 +36,7 @@
 - We will have descriptive, meaningful commit messages
 - We will spell check our commits so that they look good in our change log
 - We will start our commits with a present tense verb
-  - (e.g) Adds product description component
+	- (e.g) Adds product description component
 - We will not check in anything that outputs any warnings in the console or terminal output
 - We will strive to follow [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
@@ -49,15 +49,15 @@
 
 - We will all look at open PRs at least once a day, to ensure no features are blocked because no one has reviewed them.
 - Things that can block PRs
-  - Does not meet product spec
-  - Does not meet architecture spec
-  - No 1 character named variables
-  - Dangerous code security wise
-  - Seriously inefficient
-  - Serious lack of testing
+	- Does not meet product spec
+	- Does not meet architecture spec
+	- No 1 character named variables
+	- Dangerous code security wise
+	- Seriously inefficient
+	- Serious lack of testing
 - Feedback that should be given
-  - Commented out code that does not say why we have not deleted it the commented out code
-  - Feedback on the format of the code including readability issues
+	- Commented out code that does not say why we have not deleted it the commented out code
+	- Feedback on the format of the code including readability issues
 - If there is a change that should not block the progress of the PR but should be revisited it can be placed as a chore in the backlog.
 
 
@@ -95,8 +95,8 @@ When we encounter a file, function, component without a test we will strive to w
 
 - We will avoid API calls and other business logic in components
 - Strive to use the Presenter Model
-  - Presenter model must use a .scss/.css file
-  - should not be doing logic
+	- Presenter model must use a .scss/.css file
+	- should not be doing logic
 - If a Component does not require state use a Functional Component
 
 ## CSS
@@ -128,7 +128,7 @@ We will strive to make generic tests that will not break during refactors or Dat
 
 - We will create a separate Story and PR for all bugs
 - User-facing bugs require alignment with Product
-  - Dev-only bugs can be handled by the dev team
+	- Dev-only bugs can be handled by the dev team
 
 
 ## Choosing Dependencies
@@ -136,15 +136,15 @@ We will strive to make generic tests that will not break during refactors or Dat
 We will choose Dependencies that are Stable Active and Well maintained
 
 - Is it active/maintained, to qualify as active/maintained it should meet these criteria:
-  _ The last commit was within one year to date.
-  _ How many contributors, is there a company backing the project, or a whole community.
-  _ Don't pull in branches contributed by only one developer
-  _ How many open PRs? and is anybody reviewing them
+	_ The last commit was within one year to date.
+	_ How many contributors, is there a company backing the project, or a whole community.
+	_ Don't pull in branches contributed by only one developer
+	_ How many open PRs? and is anybody reviewing them
 - Is it stable? - How many open issues and how long do issues take before they are fixed.
 - How many downloads, we want to find packages that have at least a couple thousand downloads
 - follows semantic versioning MAJOR.MINOR.PATCH (e.g. 2.5.1)
-  _ our `package.json` file should use the `^` will update the package to the latest patch and minor version.
-  _ (e.g. `packageName: ^1.0.2`)
+	_ our `package.json` file should use the `^` will update the package to the latest patch and minor version.
+	_ (e.g. `packageName: ^1.0.2`)
 - License permits intended use
 - It has quality documentation
 - Avoid specific software version dependencies
