@@ -21,16 +21,16 @@
 
 #### Branch naming
 
-- We will add `#[pivotal-id]` to the end of the branch name
+- We will add `[pivotal-id]` to the end of the branch name
 - release-id's are calculated [2 digit year].[2 digit month].[version]
   - (e.g) 22.04.1 (1st release of april 2022)
 
 | Types   | Branch Name                           |
 | ------- | ------------------------------------- |
-| bug     | `bug/[branch-name]-#[pivotal-id]`     |
-| chore   | `chore/[branch-name]-#[pivotal-id]`   |
-| feature | `feature/[branch-name]-#[pivotal-id]` |
-| hotfix  | `hotfix/[branch-name]-#[pivotal-id]`  |
+| bug     | `bug/[branch-name]-[pivotal-id]`     |
+| chore   | `chore/[branch-name]-[pivotal-id]`   |
+| feature | `feature/[branch-name]-[pivotal-id]` |
+| hotfix  | `hotfix/[branch-name]-[pivotal-id]`  |
 | release | `release/[release-id]`                |
 
 #### Commits
