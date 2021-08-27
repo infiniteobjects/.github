@@ -9,7 +9,3 @@
 - Concise instructions if unclear (optional)
 
 ## Screenshots
-
-### Chrome
-
-### Firefox
