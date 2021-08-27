@@ -6,6 +6,6 @@
 - [Link to sandbox]()
 
 ## How to test 
-- Concise instructions if unclear (optional)
+- Concise instructions if unclear
 
 ## Screenshots
