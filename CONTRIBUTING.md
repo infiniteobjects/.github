@@ -65,11 +65,11 @@
 - If there is a change that should not block the progress of the PR but should be revisited it can be placed as a chore in the backlog.
 
 
-## JavaScript / TypeScript
+## TypeScript
 
-- We will use TypeScript as our base language
 - We will treat warnings as if they were errors.
-- We will strive to not use `any` when at all possible
+- We will try our hardest not to use `any`
+- We will use [JSDoc](https://jsdoc.app/) styling to document all functions
 
 #### Styling
 
