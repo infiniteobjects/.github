@@ -47,8 +47,15 @@ Now let’s start with some downloads.
 - Mermaid syntax: Chrome Extension, VSCode Extension
 - Docker
 
-## Further Readings
 
-After you’ve bootstrapped your machine, [this](https://docs.google.com/document/d/1Zeexj_N7ACkXIdXEn0E2LafOTjvXL8pobhM9dr5aVw8/edit) is a running list of all the apps at IO. You can find the designs, repos and general notes and definitions here. A great place to start.
+## Readings
+
+- After you’ve bootstrapped your machine, Be sure to read through our [Developer Manifesto](https://github.com/infiniteobjects/.github/blob/main/CONTRIBUTING.md) before you begin coding.
+
+- In fact, the [Default Files repo](https://github.com/infiniteobjects/.github/)  where that Developer Manifesto (and this document) lives is a good place to poke around our organization wide docs.
+
+- Check out our [common IO configs repo](https://github.com/infiniteobjects/utils-web-configs) to get a sense of the rules we usually bootstrap our apps with (`prettier`, `postcss`, `eslint`...)
+
+- Finally, [this](https://docs.google.com/document/d/1Zeexj_N7ACkXIdXEn0E2LafOTjvXL8pobhM9dr5aVw8/edit) is a running list of all the apps at IO. You can find the designs, repos, general notes and definitions here. A great place to start.
 
 
