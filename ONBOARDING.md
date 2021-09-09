@@ -41,7 +41,7 @@ Now let’s start with some downloads.
 - Visual Studio Code
 - iTerm2 (optional)
 - homebrew
-- Node 14 via Node Version Manage (nvm)
+- Node 14 via homebrew: `brew install node`
 - JDK via homebrew: `brew install java`
 - Shopify Theme Kit: `brew tap shopify/shopify` `brew install themekit` 
 - Mermaid syntax: Chrome Extension, VSCode Extension
