@@ -45,6 +45,7 @@ Now let’s start with some downloads.
 - JDK via homebrew: `brew install java`
 - Shopify Theme Kit: `brew tap shopify/shopify` `brew install themekit` 
 - Mermaid syntax: Chrome Extension, VSCode Extension
+- Docker
 
 ## Further Readings
 
