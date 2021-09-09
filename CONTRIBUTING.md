@@ -135,11 +135,13 @@ We will strive to make generic tests that will not break during refactors or Dat
 	- Dev-only bugs can be handled by the dev team
 
 
-## Choosing Dependencies
+## Dependencies
+We will update Dependencies in a seperate `chore` branch dedicated to only updating and testing dependencies
 
-We will choose Dependencies that are Stable Active and Well maintained
+#### Choosing Dependencies
+We will choose Dependencies that are stable, active, and well maintained
 
-- Is it active/maintained, to qualify as active/maintained it should meet these criteria:
+- To qualify as active/ well maintained it should meet these criteria:
 	_ The last commit was within one year to date.
 	_ How many contributors, is there a company backing the project, or a whole community.
 	_ Don't pull in branches contributed by only one developer
