@@ -27,7 +27,7 @@ You're going to also need this line with your token to your `~/.npmrc` file:
 
 And lastly, you're going to need to sign into `npm` with this token. Type this in your terminal and use the token as your password once again.
 
-`npm login --scope=@OWNER --registry=https://npm.pkg.github.com`
+`npm login --scope=@infiniteobjects --registry=https://npm.pkg.github.com`
 
 ## Calendars
 
