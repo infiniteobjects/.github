@@ -44,9 +44,16 @@ Now let’s start with some downloads.
 - Node 14 via homebrew: `brew install node`
 - JDK via homebrew: `brew install java`
 - Shopify Theme Kit: `brew tap shopify/shopify` `brew install themekit` 
-- Mermaid syntax: Chrome Extension, VSCode Extension
 - Docker
 
+Chrome Extensions
+- [mermaid-diagrams](https://chrome.google.com/webstore/detail/mermaid-diagrams/phfcghedmopjadpojhmmaffjmfiakfil)
+- [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/mhimpmpmffogbmmkmajibklelopddmjf)
+- [Better Pull Request for GitHub](https://chrome.google.com/webstore/detail/better-pull-request-for-g/nfhdjopbhlggibjlimhdbogflgmbiahc)
+- [GoFullPage - Full Page Screen Capture](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
+
+VS Code Extensions
+- [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
 
 ## Readings
 
