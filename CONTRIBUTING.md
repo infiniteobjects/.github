@@ -1,8 +1,22 @@
 # IO Developer Manifesto
 
-## Story Size
+## Pivotal Workflow
 
-- We will strive to make stories as small as possible.
+- We will strive to make stories as small and specific as possible.
+- We will strive to add detailed descriptions, acceptance criteria, tags, and estimates (even if rough).
+- We will strive to set up related stories as blockers where appropriate.
+
+### Story States
+The following table explains how we interpret each of the states for a Pivotal story. Note the difference between Finished & Delivered.
+
+| States    | Description                                                                                 |
+|-----------|---------------------------------------------------------------------------------------------|
+| Unstarted | When the story is created                                                                   |
+| Started   | When you pick up a story                                                                    |
+| Finished  | When the code for a story is considered complete by the author(s), and a PR has been opened |
+| Delivered | When the story is deployed, visible, or otherwise testable                                  |
+| Accepted  | When the story has passed all tests, reviews, QA                                            |
+| Rejected  | When the story has failed one of the above                                                  |
 
 ## Git Workflow
 
@@ -137,10 +151,11 @@ We will strive to make generic tests that will not break during refactors or Dat
 
 
 ## Dependencies
-We will update Dependencies in a seperate `chore` branch dedicated to only updating and testing dependencies
+- We will use `npm ci` instead of `npm i` when installing/updating a branch, unless there is a specific reason to do so
+- We will update dependencies in a seperate `chore` branch dedicated to only updating and testing dependencies
 
 #### Choosing Dependencies
-We will choose Dependencies that are stable, active, and well maintained
+We will choose dependencies that are stable, active, and well maintained
 
 - To qualify as active/ well maintained it should meet these criteria:
 	_ The last commit was within one year to date.
