@@ -151,10 +151,11 @@ We will strive to make generic tests that will not break during refactors or Dat
 
 
 ## Dependencies
-We will update Dependencies in a seperate `chore` branch dedicated to only updating and testing dependencies
+- We will use `npm ci` instead of `npm i` when installing/updating a branch, unless there is a specific reason to do so
+- We will update dependencies in a seperate `chore` branch dedicated to only updating and testing dependencies
 
 #### Choosing Dependencies
-We will choose Dependencies that are stable, active, and well maintained
+We will choose dependencies that are stable, active, and well maintained
 
 - To qualify as active/ well maintained it should meet these criteria:
 	_ The last commit was within one year to date.
