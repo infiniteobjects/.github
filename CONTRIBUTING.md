@@ -149,7 +149,7 @@ We will strive to make generic tests that will not break during refactors or Dat
 - User-facing bugs require alignment with Product
 	- Dev-only bugs can be handled by the dev team
 
-## Accessability 
+## Accessibility 
 We will
 - Associate a label with every form control
 - Include alternative text for images
