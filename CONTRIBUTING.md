@@ -161,6 +161,7 @@ We will
 - Provide meaning for non-standard interactive elements using `aria`
 - Ensure that all interactive elements are keyboard accessible
 - Avoid CAPTCHA where possible
+- Use color blind accessible colors!
 
 ## Dependencies
 - We will use `npm ci` instead of `npm i` when installing/updating a branch, unless there is a specific reason to do so
