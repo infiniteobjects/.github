@@ -150,7 +150,7 @@ We will strive to make generic tests that will not break during refactors or Dat
 	- Dev-only bugs can be handled by the dev team
 
 ## Accessibility 
-We will
+We will strive to
 - Associate a label with every form control
 - Include alternative text for images
 - Identify page language and language changes
@@ -161,7 +161,7 @@ We will
 - Provide meaning for non-standard interactive elements using `aria`
 - Ensure that all interactive elements are keyboard accessible
 - Avoid CAPTCHA where possible
-- Use color blind accessible colors!
+- Use color blind accessible colors
 
 ## Dependencies
 - We will use `npm ci` instead of `npm i` when installing/updating a branch, unless there is a specific reason to do so
@@ -184,8 +184,8 @@ We will choose dependencies that are stable, active, and well maintained
 - Is it stable? - How many open issues and how long do issues take before they are fixed
 - How many downloads, we want to find packages that have at least a couple thousand downloads
 - follows semantic versioning MAJOR.MINOR.PATCH (e.g. 2.5.1)
-	_ our `package.json` file should use the `^` will update the package to the latest patch and minor version.
-	_ (e.g. `packageName: ^1.0.2`)
+  - our `package.json` file should use the `~` will update the package to the latest patch version.
+  - (e.g. `packageName: ~1.0.2`)
 - License permits intended use
 - It has quality documentation
 - Avoid specific software version dependencies
