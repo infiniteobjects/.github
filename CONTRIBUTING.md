@@ -33,7 +33,7 @@ The following table explains how we interpret each of the states for a Pivotal s
 - For a very small PR the developer has the choice to only have 1 approval, **please be mindful**
 - We will delete branches after they have been approved and merged
 
-#### Branch naming
+### Branch naming
 
 - We will add `[pivotal-id]` to the end of the branch name, removing the # sign from the story number
 - release-id's are calculated [2 digit year].[2 digit month].[version]
@@ -48,7 +48,7 @@ The following table explains how we interpret each of the states for a Pivotal s
 | release | `release/[release-id]`                |
 | epic    | `epic/[epic-name]`                    |
 
-#### Commits
+### Commits
 
 - We will strive to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 - We will have descriptive, meaningful commit messages
@@ -64,7 +64,7 @@ The following table explains how we interpret each of the states for a Pivotal s
 - PRs will be reviewed by the team every morning
 - **PR Titles**: will be short and descriptive
 
-#### PR etiquette
+### PR etiquette
 
 - We will all look at open PRs at least once a day, to ensure no features are blocked because no one has reviewed them
 - Things that can block PRs
@@ -87,7 +87,7 @@ The following table explains how we interpret each of the states for a Pivotal s
 	- Use `unknown` where possible
 - We will use [TSDoc](https://tsdoc.org/) styling to document all functions
 
-#### Styling
+## Styling
 
 - We will use snake_case for any routes
 - We will use plural naming for any routes (/users)
@@ -100,18 +100,17 @@ The following table explains how we interpret each of the states for a Pivotal s
 - We will take the time to refactor anything we see that breaks with the rules of our manifesto 
 as long as it is within a reasonable scope for the PR
 
-#### Folder Structure and Variable naming
+## Folder Structure and Variable naming
 
 - We will nest files in a folder that should be grouped
 - We will refactor as we go
 
-#### Refactoring
+## Refactoring
 
-We **refactor as we go**. When we touch new files, if there is a refactor that we can do then and there to help the team we should strive to do it within reasonable scope
+- We **refactor as we go**. When we touch new files, if there is a refactor that we can do then and there to help the team we should strive to do it within reasonable scope
+- When we encounter a file, function, component without a test we will strive to write a test for it.
 
-When we encounter a file, function, component without a test we will strive to write a test for it.
-
-#### React
+## React
 
 - We will avoid API calls and other business logic in components
 - Strive to use the Presenter Model
@@ -135,7 +134,7 @@ When we encounter a file, function, component without a test we will strive to w
 
 **NOTE** When we encounter or make edits to code that does not have test coverage we will go the extra mile and create tests even for code we didn't write ourselves.
 
-#### Testing Best Practices
+### Testing Best Practices
 
 We will strive to make generic tests that will not break during refactors or Data Changes
 
@@ -145,7 +144,6 @@ We will strive to make generic tests that will not break during refactors or Dat
   component will know not to change that id name
 
 ## Bugs
-
 - We will create a separate Story and PR for all bugs
 - User-facing bugs require alignment with Product
 	- Dev-only bugs can be handled by the dev team
@@ -168,13 +166,13 @@ We will strive to
 - We will use `npm ci` instead of `npm i` when installing/updating a branch, unless there is a specific reason to do so
 - We will update dependencies in a separate `chore` branch dedicated to only updating and testing dependencies
 
-#### Repository Owners
+### Repository Owners
 - Each developer will be assigned a project which to maintain dependency health
 - Each developer should PR a branch with updated and tested dependencies, or noted considerations in not updating.
 - We will strive to have these PRs finished by 🎉 Launch Party 🚀 which, at time of writing, is scheduled for Tuesdays
 - We will strive not have any dependabot PRs longer than a week
 
-#### Choosing Dependencies
+### Choosing Dependencies
 We will choose dependencies that are stable, active, and well maintained
 
 - To qualify as active/ well maintained it should meet these criteria:
