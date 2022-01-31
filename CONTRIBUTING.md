@@ -84,7 +84,8 @@ The following table explains how we interpret each of the states for a Pivotal s
 
 - We will treat warnings as if they were errors
 - We will try our hardest not to use `any`
-- We will use [JSDoc](https://jsdoc.app/) styling to document all functions
+	- Use `unknown` where possible
+- We will use [TSDoc](https://tsdoc.org/) styling to document all functions
 
 #### Styling
 
