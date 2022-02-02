@@ -38,7 +38,9 @@ You're going to need to make sure you've been invited to all of these accounts
 - Docker
 - Cyberduck
 - iTerm2 (optional)
+- ZSH
 - Paw
+- Jumpcut
 
 
 Chrome Extensions
