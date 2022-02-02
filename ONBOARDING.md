@@ -39,8 +39,8 @@ You're going to need to make sure you've been invited to all of these accounts
 - iTerm2 (optional)
 - ZSH
 - Paw
-- Jumpcut
-
+- [Jumpcut](https://snark.github.io/jumpcut/)
+- [Rectangle](https://rectangleapp.com/)
 
 Chrome Extensions
 - [mermaid-diagrams](https://chrome.google.com/webstore/detail/mermaid-diagrams/phfcghedmopjadpojhmmaffjmfiakfil)
