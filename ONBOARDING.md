@@ -6,7 +6,7 @@ You're going to need to make sure you've been invited to all of these accounts
 - Pivotal Tracker
 - Figma
 - 1Password
-- Slack
+- Slack (especially developer channels, and @dev User Group!)
 - Asana
 - Github (need to be added to Infinite Objects organization and assigned a team)
 - Shopify
