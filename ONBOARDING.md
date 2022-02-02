@@ -55,6 +55,7 @@ VS Code Extensions
   - Make sure to define the full `repo` scope as well as the `write:packages` scope
 - `git clone` via HTTPS one of the UI repo (or any IO repo) and use that token as your password when prompted.
 - Create a `~/.npmrc` file with these contents: `//npm.pkg.github.com/:_authToken=TOKEN`
-- `npm login --scope=@infiniteobjects --registry=https://npm.pkg.github.com`
+- Run `npm login --scope=@infiniteobjects --registry=https://npm.pkg.github.com`
+  - Use the same Github Token from earlier when prompted for your password
 
 
