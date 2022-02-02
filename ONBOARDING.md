@@ -8,10 +8,10 @@ You're going to need to make sure you've been invited to all of these accounts
 - 1Password
 - Slack
 - Asana
-- Github (need to be added to Infinite Objects organization)
+- Github (need to be added to Infinite Objects organization and assigned a team)
 - Shopify
 - Sentry
-- Crossbrowsertesting
+- Crossbrowsertesting (Shared account in 1pass)
 - PM2
 - Paw
 - Google Calendars: “Infinite Objects” and “IO OOO”.
