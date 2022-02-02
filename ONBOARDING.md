@@ -21,19 +21,21 @@ You're going to need to make sure you've been invited to all of these accounts
  Now let’s start with some downloads. 
 
 - XCode CLI tools
-- Visual Studio Code
-- homebrew
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [homebrew](https://brew.sh/)
 - NVM
 - Node 14 via `nvm`
 - JDK: `brew install java`
 - Shopify Theme Kit: `brew tap shopify/shopify` `brew install themekit` 
-- Docker
-- Cyberduck
-- iTerm2 (optional)
+- [Docker Desktop](https://www.docker.com/products/docker-desktop)
+- [Cyberduck](https://cyberduck.io/)
+- [iTerm2](https://iterm2.com/) (optional)
 - ZSH
-- Paw
+  - [Oh my Zshell](https://ohmyz.sh/) if you're cool 😎
+- [Paw](https://paw.cloud/)
 - [Jumpcut](https://snark.github.io/jumpcut/)
 - [Rectangle](https://rectangleapp.com/)
+- [1Password desktop app](https://1password.com/downloads/mac/)
 
 Chrome Extensions
 - [mermaid-diagrams](https://chrome.google.com/webstore/detail/mermaid-diagrams/phfcghedmopjadpojhmmaffjmfiakfil)
@@ -41,7 +43,7 @@ Chrome Extensions
 - [Better Pull Request for GitHub](https://chrome.google.com/webstore/detail/better-pull-request-for-g/nfhdjopbhlggibjlimhdbogflgmbiahc)
 - [GoFullPage - Full Page Screen Capture](https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl)
 - [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en)
-- [1Password](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
+- [1Password Chrome extension](https://chrome.google.com/webstore/detail/1password-%E2%80%93-password-mana/aeblfdkhhhdcdjpifhhbdiojplfjncoa)
 
 VS Code Extensions
 - [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
