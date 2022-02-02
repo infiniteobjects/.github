@@ -16,14 +16,6 @@ You're going to need to make sure you've been invited to all of these accounts
 - Paw
 - Google Calendars: “Infinite Objects” and “IO OOO”.
 
-# 🔑 Tokens
-
-- [Follow these instructions](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a Github personal access token. (NOTE: Keep the token handy for the next step!)
-  - Make sure to define the full `repo` scope as well as the `write:packages` scope
-- `git clone` one of the IO repos and use that token as your password when prompted.
-- Create a `~/.npmrc` file with these contents: `//npm.pkg.github.com/:_authToken=TOKEN`
-- `npm login --scope=@infiniteobjects --registry=https://npm.pkg.github.com`
-
 # 💾 Downloads
 
  Now let’s start with some downloads. 
@@ -53,5 +45,14 @@ Chrome Extensions
 
 VS Code Extensions
 - [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+
+
+# 🔑 Tokens
+
+- [Follow these instructions](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a Github personal access token. (NOTE: Keep the token handy for the next step!)
+  - Make sure to define the full `repo` scope as well as the `write:packages` scope
+- `git clone` via HTTPS one of the UI repo (or any IO repo) and use that token as your password when prompted.
+- Create a `~/.npmrc` file with these contents: `//npm.pkg.github.com/:_authToken=TOKEN`
+- `npm login --scope=@infiniteobjects --registry=https://npm.pkg.github.com`
 
 
