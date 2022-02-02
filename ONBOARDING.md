@@ -15,7 +15,6 @@ You're going to need to make sure you've been invited to all of these accounts
 - PM2
 - Paw
 - Google Calendars: “Infinite Objects” and “IO OOO”.
-- 1Password
 
 # 🔑 Tokens
 
