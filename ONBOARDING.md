@@ -29,7 +29,7 @@ You're going to need to make sure you've been invited to all of these accounts
 - Shopify Theme Kit: `brew tap shopify/shopify` `brew install themekit` 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - [Cyberduck](https://cyberduck.io/)
-  - Setup: Open Connection > Google Cloud Storage > Project ID = io-ugc-v1 > Connect > Follow instructions
+  - Setup: Open Connection > Google Cloud Storage > Project ID = `io-ugc-v1` > Connect > Follow instructions
 - [iTerm2](https://iterm2.com/) (optional)
 - ZSH
   - [Oh my Zshell](https://ohmyz.sh/) if you're cool 😎
@@ -52,7 +52,7 @@ VS Code Extensions
 
 # 🔑 Tokens
 
-- [Follow these instructions](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a Github personal access token. (NOTE: Keep the token handy for the next step!)
+- [Follow these instructions](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a Github personal access token. (NOTE: Keep the token handy for the next couple steps!)
   - Make sure to define the full `repo` scope as well as the `write:packages` scope
 - `git clone` via HTTPS one of the UI repo (or any IO repo) and use that token as your password when prompted.
 - Create a `~/.npmrc` file with these contents: `//npm.pkg.github.com/:_authToken=TOKEN`
