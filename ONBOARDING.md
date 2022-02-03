@@ -5,16 +5,16 @@ You're going to need to make sure you've been invited to all of these accounts
 - Google Account
 - Pivotal Tracker
 - Figma
-- 1Password
-- Slack (especially developer channels, and @dev User Group!)
+- 1Password ("Web Dev" Vault)
+- Slack (especially developer channels, and the "@dev" User Group!)
 - Asana
-- Github (need to be added to Infinite Objects organization and assigned a team)
+- Github (added to Infinite Objects organization and assigned a team)
 - Shopify
 - Sentry
-- Crossbrowsertesting (Shared account in 1pass)
+- Crossbrowsertesting (shared account in 1pass)
 - PM2
 - Paw
-- Google Calendars: “Infinite Objects” and “IO OOO”.
+- Google Calendars: “Infinite Objects” and “IO OOO” (and added to reoccuring meetings)
 
 # 💾 Downloads
 
@@ -29,6 +29,7 @@ You're going to need to make sure you've been invited to all of these accounts
 - Shopify Theme Kit: `brew tap shopify/shopify` `brew install themekit` 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - [Cyberduck](https://cyberduck.io/)
+  - Setup: Open Connection > Google Cloud Storage > Project ID = io-ugc-v1 > Connect > Follow instructions
 - [iTerm2](https://iterm2.com/) (optional)
 - ZSH
   - [Oh my Zshell](https://ohmyz.sh/) if you're cool 😎
