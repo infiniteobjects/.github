@@ -10,6 +10,6 @@
 - 📌 Make sure to pin [this list of Open PRs](https://github.com/pulls?q=is%3Aopen+is%3Apr+archived%3Afalse+user%3Ainfiniteobjects+-author%3Aapp%2Fdependabot) tracking all repos
 - ✅ [Asana](https://app.asana.com/0/home/1200740753180000) can help you see some of the other teams and what they're working on
 
-## What is Web3?
+### What is Web3?
 - ⛓ Watch all the [Eth.Build](https://eth.build/) videos if you're not so familiar with blockchain and smart contract principles
 - 🧑‍💻 Play around with [Scaffold Eth](https://github.com/scaffold-eth/scaffold-eth), check out the different branches for different types of web3 app scaffolds
