@@ -2,9 +2,9 @@
 
 ## Pivotal Workflow
 
-- We will strive to make stories as small and specific as possible
-- We will strive to add detailed descriptions, acceptance criteria, tags, and estimates (even if rough)
-- We will strive to set up related stories as blockers where appropriate
+- Make stories as small and specific as possible
+- Add detailed descriptions, acceptance criteria, tags, and estimates (even if rough)
+- Set up related stories as blockers where appropriate
 
 ### Story States
 The following table explains how we interpret each of the states for a Pivotal story. Note the difference between Finished & Delivered
@@ -21,21 +21,22 @@ The following table explains how we interpret each of the states for a Pivotal s
 ## Git Workflow
 
 - We use [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/)
-- We will never push directly to master/main or develop branches
-- We will only submit our changes via opening Pull Requests
-- We will post all new Pull Requests to #io-pull-requests
-- We will strive to make a single Pull Requests encompass 1 piece of functionality.
-- We will use GitHub for tracking code reviews
-- We will use Pivotal Tracker for tracking all other reviews (design, testing/QA, etc.)
+- Never push directly to master/main or develop branches
+- Only submit our changes via opening Pull Requests
+- Post all new Pull Requests to #io-pull-requests
+- Strive to make a single Pull Requests encompass 1 piece of functionality.
+- Use GitHub for tracking code reviews
+- Use Pivotal Tracker for tracking all other reviews (design, testing/QA, etc.)
 - Pull Requests by a single developer needs 2 approvals
 - Pull Requests by a pair needs 1 approval
 - Authors cannot approve their own Pull Requests
 - For a very small PR the developer has the choice to only have 1 approval, **please be mindful**
-- We will delete branches after they have been approved and merged
+- Delete branches after they have been approved and merged
 
 ### Branch naming
 
-- We will add `[pivotal-id]` to the end of the branch name, removing the # sign from the story number
+- Add `[pivotal-id]` to the end of the branch name, removing the # sign from the story number
+  - Pivotal Tracker looks for this ID to link the branch to the story 
 - release-id's are calculated [2 digit year].[2 digit month].[version]
   - (e.g) 22.04.1 (1st release of april 2022)
 
@@ -50,106 +51,95 @@ The following table explains how we interpret each of the states for a Pivotal s
 
 ### Commits
 
-- We will strive to follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-- We will have descriptive, meaningful commit messages
-- We will spell check our commits so that they look good in our change log
-- We will prefix the commit message with the type
-	- (e.g) `fix:`, `feat:`, `docs:` or others from Conventional Commits
-- We will start our commits with a present tense verb
-	- (e.g) Adds product description component
-- We will not check in anything that outputs any warnings in the console or terminal output
+- Follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+  - (e.g) Prefix commits with `fix:`, `feat:`, `docs:` `chore:`
+- Have descriptive, meaningful commit messages
+- Spell check our commits so that they look good in our change log
+- Prefix the commit message with the type
+- Start our commits with a present tense verb
+  - (e.g) Adds product description component
+- Do not check in anything that outputs any warnings in the console or terminal output
 
 ## Pull Requests
 
-- PRs will be reviewed by the team every morning
-- **PR Titles**: will be short and descriptive
-
-### PR etiquette
-
-- We will all look at open PRs at least once a day, to ensure no features are blocked because no one has reviewed them
+- PR titles will be short and descriptive
+- PRs will be reviewed by the team every morning (at least once a day) to ensure no features are blocked because no one has reviewed them
 - Things that can block PRs
 	- Does not meet product spec
 	- Does not meet architecture spec
 	- No 1 character named variables
 	- Dangerous code security wise
-	- Seriously inefficient
-	- Serious lack of testing
+	- Inefficient
+	- Lack of testing
 - Feedback that should be given
 	- Commented out code that does not say why we have not deleted it the commented out code
 	- Feedback on the format of the code including readability issues
 - If there is a change that should not block the progress of the PR but should be revisited it can be placed as a chore in the backlog
 
-
 ## TypeScript
 
-- We will treat warnings as if they were errors
-- We will try our hardest not to use `any`
-	- Use `unknown` where possible
-- We will use [TSDoc](https://tsdoc.org/) styling to document all functions
+- Treat warnings as if they were errors
+- Try not to use `any`
+  - Use `unknown` where possible
+- Use [TSDoc](https://tsdoc.org/) styling to document all functions
 
 ## Styling
 
-- We will use snake_case for any routes
-- We will use plural naming for any routes (/users)
-- We will use kebab-case for any files
-- We will use kebab-case for any Collection names
-- We will use plural naming for any Collection names (users)
-- We will use camelCase for any field names in the database
-- We will use camelCase primarily in javascript/typescript
-- We will nest files in folders and name them according to their scope
-- We will take the time to refactor anything we see that breaks with the rules of our manifesto 
+- Use kebab-case for any files
+- Use kebab-case for any Collection names
+- Use plural naming for any Collection names (users)
+- Use camelCase for any field names in the database
+- Use camelCase primarily in javascript/typescript
+- Nest files in folders and name them according to their scope
+- Take the time to refactor anything we see that breaks with the rules of our manifesto 
 as long as it is within a reasonable scope for the PR
 
 ## Folder Structure and Variable naming
 
-- We will nest files in a folder that should be grouped
-- We will refactor as we go
+- Nest files in a folder that should be grouped
 
 ## Refactoring
 
-- We **refactor as we go**. When we touch new files, if there is a refactor that we can do then and there to help the team we should strive to do it within reasonable scope
-- When we encounter a file, function, component without a test we will strive to write a test for it.
+- We **refactor as we go**. 
+- If there is a refactor that we can do then and there to help the team we should strive to do it within reasonable scope  
 
 ## React
 
-- We will avoid API calls and other business logic in components
-- Strive to use the Presenter Model
-	- Presenter model must use a .scss/.css file
-	- should not be doing logic
-- If a Component does not require state use a Functional Component
+- Avoid API calls and other business logic in components
+- Use the Presenter Model if possible
+  - Presenter model must use a .scss/.css file
+  - Should not be doing logic
+- Use functional components with React Hooks
 
 ## CSS
 
-- We use [BEM](http://getbem.com/) for our CSS naming convention
+- Use [BEM](http://getbem.com/) for our CSS naming convention
 - CSS names should be tied to the component name
 - CSS should live alongside the component and only style that component
 
 ## Testing
 
-- We will strive to create UI tests (cypress/playwright) for any critical path features
-- We will strive to create regression tests for bugs
+- Create UI tests (cypress/playwright) for any critical path features
+- Create regression tests for bugs
 - Integration tests should live in a test folder outside of src directory
 - All unit tests should live alongside the file they are testing
 - We use [crossbrowsertesting](https://crossbrowsertesting.com/) to test across browsers
-
-**NOTE** When we encounter or make edits to code that does not have test coverage we will go the extra mile and create tests even for code we didn't write ourselves.
+- When we encounter or make edits to code that does not have test coverage we will go the extra mile and create tests even for code we didn't write ourselves.
 
 ### Testing Best Practices
 
-We will strive to make generic tests that will not break during refactors or Data Changes
-
+- Make generic tests that will not break during refactors or Data Changes
 - Integration tests should **NOT** use specific values from a database because values will change over time
 - Use regex or something generic when testing for equality
 - When accessing DOM elements in test use an id that is prefixed with `#test-` that way anybody updating the
   component will know not to change that id name
 
 ## Bugs
-- We will create a separate Story and PR for all bugs
+- Create a separate Story and PR for all bugs
 - User-facing bugs require alignment with Product
-	- Dev-only bugs can be handled by the dev team
+- Dev-only bugs can be handled by the dev team
 
 ## Accessibility 
-We will strive to
 - Associate a label with every form control
 - Include alternative text for images
 - Identify page language and language changes
@@ -163,28 +153,34 @@ We will strive to
 - Use color blind accessible colors
 
 ## Dependencies
-- We will use `npm ci` instead of `npm i` when installing/updating a branch, unless there is a specific reason to do so
-- We will update dependencies in a separate `chore` branch dedicated to only updating and testing dependencies
+- Use `npm ci` instead of `npm i` when installing/updating a branch, unless there is a specific reason to do so
+- Update dependencies in a separate `chore` branch dedicated to only updating and testing dependencies
 
 ### Repository Owners
 - Each developer will be assigned a project which to maintain dependency health
 - Each developer should PR a branch with updated and tested dependencies, or noted considerations in not updating.
-- We will strive to have these PRs finished by 🎉 Launch Party 🚀 which, at time of writing, is scheduled for Tuesdays
+- Have these PRs finished by 🎉 Launch Party 🚀 which, at time of writing, is scheduled for Tuesdays
 - We will strive not have any dependabot PRs longer than a week
 
-### Choosing Dependencies
-We will choose dependencies that are stable, active, and well maintained
+| Developer   | Repository                       |
+|-------------|----------------------------------|
+| Marc        | Print Your Own     		 |
+| Jorge       | Stack 				 |
+| Nico        | UI 				 |
+| Paul        | Shopify Theme 			 |
 
+### Choosing Dependencies
+- Choose dependencies that are stable, active, and well maintained
 - To qualify as active/ well maintained it should meet these criteria:
-	_ The last commit was within one year to date
-	_ How many contributors, is there a company backing the project, or a whole community
-	_ Don't pull in branches contributed by only one developer
-	_ How many open PRs? and is anybody reviewing them
+  - The last commit was within one year to date
+  - How many contributors, is there a company backing the project, or a whole community
+  - Don't pull in branches contributed by only one developer
+  - How many open PRs? and is anybody reviewing them
 - Is it stable? - How many open issues and how long do issues take before they are fixed
 - How many downloads, we want to find packages that have at least a couple thousand downloads
-- follows semantic versioning MAJOR.MINOR.PATCH (e.g. 2.5.1)
-  - our `package.json` file should use the `~` will update the package to the latest patch version.
-  - (e.g. `packageName: ~1.0.2`)
+- Follows semantic versioning MAJOR.MINOR.PATCH (e.g. 2.5.1)
 - License permits intended use
 - It has quality documentation
 - Avoid specific software version dependencies
+- Our `package.json` file should use the `~` will update the package to the latest patch version.
+  - (e.g. `packageName: ~1.0.2`)
