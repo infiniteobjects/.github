@@ -38,6 +38,7 @@ You're going to need to make sure you've been invited to all of these accounts
 - [Rectangle](https://rectangleapp.com/)
 - [1Password desktop app](https://1password.com/downloads/mac/)
 - [Stoplight Studio](https://stoplight.io/studio/)
+- [TeamViewer](https://www.teamviewer.com/en-us/)
 
 Chrome Extensions
 - [mermaid-diagrams](https://chrome.google.com/webstore/detail/mermaid-diagrams/phfcghedmopjadpojhmmaffjmfiakfil)
