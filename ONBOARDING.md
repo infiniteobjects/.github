@@ -21,12 +21,14 @@ You're going to need to make sure you've been invited to all of these accounts
  Now let’s start with some downloads. 
 
 - XCode CLI tools
-- [Visual Studio Code](https://code.visualstudio.com/download)
 - [homebrew](https://brew.sh/)
-- NVM
-- Node 14 via `nvm`
+- NVM: `brew install nvm`
+- Node 14 `nvm install 14`
 - JDK: `brew install java`
-- Shopify Theme Kit: `brew tap shopify/shopify` `brew install themekit` 
+- Shopify Theme Kit: `brew tap shopify/shopify` `brew install themekit`
+- GCloud: `brew install gcloud`
+- Terraform: `brew install terraform`
+- [Visual Studio Code](https://code.visualstudio.com/download)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - [Cyberduck](https://cyberduck.io/)
   - Setup: Open Connection > Google Cloud Storage > Project ID = `io-ugc-v1` > Connect > Follow instructions
