@@ -14,7 +14,10 @@ You're going to need to make sure you've been invited to all of these accounts
 - Crossbrowsertesting (shared account in 1pass)
 - PM2
 - Paw
-- Google Calendars: “Infinite Objects” and “IO OOO” (and added to reoccuring meetings)
+- Google Calendars
+  - “Infinite Objects” Calendar
+  - “IO OOO” Calendar
+  - Reoccuring meetings
 
 # 💾 Downloads
 
@@ -23,7 +26,7 @@ You're going to need to make sure you've been invited to all of these accounts
 - XCode CLI tools
 - [homebrew](https://brew.sh/)
 - NVM: `brew install nvm`
-- Node 14 `nvm install 14`
+- Node 14: `nvm install 14`
 - JDK: `brew install java`
 - Shopify Theme Kit: `brew tap shopify/shopify` `brew install themekit`
 - GCloud: `brew install gcloud`
