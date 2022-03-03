@@ -57,8 +57,9 @@ VS Code Extensions
 - [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
 
 
-# 🔑 Tokens
+# 🔑 Credentials
 
+## 💻 Github and NPM
 - [Follow these instructions](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) to create a Github personal access token. (NOTE: Keep the token handy for the next couple steps!)
   - Make sure to define the full `repo` scope as well as the `write:packages` scope
 - `git clone` via HTTPS one of the UI repo (or any IO repo) and use that token as your password when prompted.
@@ -66,4 +67,6 @@ VS Code Extensions
 - Run `npm login --scope=@infiniteobjects --registry=https://npm.pkg.github.com`
   - Use the same Github Token from earlier when prompted for your password
 
-
+## 🌥 Google Cloud
+- You're going to need to be added as a user to our GCP sandbox and production environments
+- And be provisioned service account keys for both environments to use locally in your repos
