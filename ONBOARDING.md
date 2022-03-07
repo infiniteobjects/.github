@@ -29,7 +29,7 @@ You're going to need to make sure you've been invited to all of these accounts
 - Node 14: `nvm install 14`
 - JDK: `brew install java`
 - Shopify Theme Kit: `brew tap shopify/shopify` `brew install themekit`
-- GCloud: `brew install gcloud`
+- GCloud: `brew tap homebrew/cask` and `brew install --cask google-cloud-sdk`
 - Terraform: `brew install terraform`
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
