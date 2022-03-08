@@ -31,6 +31,7 @@ You're going to need to make sure you've been invited to all of these accounts
 - Shopify Theme Kit: `brew tap shopify/shopify` `brew install themekit`
 - GCloud: `brew tap homebrew/cask` and `brew install --cask google-cloud-sdk`
 - Terraform: `brew install terraform`
+- Rush: `npm install -g @microsoft/rush`
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [Docker Desktop](https://www.docker.com/products/docker-desktop)
 - [Cyberduck](https://cyberduck.io/)
