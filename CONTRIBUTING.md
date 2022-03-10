@@ -138,6 +138,9 @@ as long as it is within a reasonable scope for the PR
 - Create a separate Story and PR for all bugs
 - User-facing bugs require alignment with Product
 - Dev-only bugs can be handled by the dev team
+- Make sure to use the IO 'Bug Report' template (see photo below)
+<img width="264" alt="bug-template" src="https://user-images.githubusercontent.com/18608739/157771488-4e29609c-2df7-4d40-a30d-d0467e621669.png">
+
 
 ## Accessibility 
 - Associate a label with every form control
