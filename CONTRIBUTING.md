@@ -62,6 +62,10 @@ The following table explains how we interpret each of the states for a Pivotal s
 
 ## Pull Requests
 
+### PR Pyramid
+![The Code Review Pyramid](https://user-images.githubusercontent.com/49962954/157915476-948445aa-6a6c-4c1a-af52-08b87ef6a3a7.png)
+
+### PR Etiquette
 - PR titles will be short and descriptive
 - PRs will be reviewed by the team every morning (at least once a day) to ensure no features are blocked because no one has reviewed them
 - Things that can block PRs
@@ -154,6 +158,7 @@ as long as it is within a reasonable scope for the PR
 - Ensure that all interactive elements are keyboard accessible
 - Avoid CAPTCHA where possible
 - Use color blind accessible colors
+
 
 ## Dependencies
 - Use `npm ci` instead of `npm i` when installing/updating a branch, unless there is a specific reason to do so
