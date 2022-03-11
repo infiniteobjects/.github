@@ -4,7 +4,7 @@ You're going to need to make sure you've been invited to all of these accounts
 
 - Google Account
 - Pivotal Tracker
-- Figma
+- Figma 
 - 1Password ("Web Dev" Vault)
 - Slack (especially developer channels, and the "@dev" User Group!)
 - Asana
@@ -45,6 +45,8 @@ You're going to need to make sure you've been invited to all of these accounts
 - [1Password desktop app](https://1password.com/downloads/mac/)
 - [Stoplight Studio](https://stoplight.io/studio/)
 - [TeamViewer](https://www.teamviewer.com/en-us/)
+- [Export Original Images Figma Plugin](https://www.figma.com/community/plugin/973190386632562805/Export-Original-Images)
+  - Figma is the source of truth for assets to use in development stories, use this plugin to export the original files
 
 Chrome Extensions
 - [mermaid-diagrams](https://chrome.google.com/webstore/detail/mermaid-diagrams/phfcghedmopjadpojhmmaffjmfiakfil)
