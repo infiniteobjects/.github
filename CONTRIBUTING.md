@@ -23,7 +23,7 @@ The following table explains how we interpret each of the states for a Pivotal s
 - We use [GitFlow](https://nvie.com/posts/a-successful-git-branching-model/)
 - Never push directly to master/main or develop branches
 - Only submit our changes via opening Pull Requests
-- Post all new Pull Requests to #io-pull-requests
+- Post all new Pull Requests to #pull-requests
 - Strive to make a single Pull Requests encompass 1 piece of functionality.
 - Use GitHub for tracking code reviews
 - Use Pivotal Tracker for tracking all other reviews (design, testing/QA, etc.)
@@ -55,9 +55,9 @@ The following table explains how we interpret each of the states for a Pivotal s
   - (e.g) Prefix commits with `fix:`, `feat:`, `docs:` `chore:`
 - Have descriptive, meaningful commit messages
 - Spell check our commits so that they look good in our change log
-- Prefix the commit message with the type
-- Start our commits with a present tense verb
-  - (e.g) Adds product description component
+- Squash commits to clean log if necessary
+- Start our commits with a present tense verb and Sentence case
+  - (e.g) feat: Adds product description component
 - Do not check in anything that outputs any warnings in the console or terminal output
 
 ## Pull Requests
@@ -66,7 +66,7 @@ The following table explains how we interpret each of the states for a Pivotal s
 ![The Code Review Pyramid](https://user-images.githubusercontent.com/49962954/157915476-948445aa-6a6c-4c1a-af52-08b87ef6a3a7.png)
 
 ### PR Etiquette
-- PR titles will be short and descriptive
+- PR titles will be short, readable and descriptive
 - PRs will be reviewed by the team every morning (at least once a day) to ensure no features are blocked because no one has reviewed them
 - Things that can block PRs
 	- Does not meet product spec
