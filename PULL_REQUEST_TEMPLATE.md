@@ -1,11 +1,11 @@
 ## Summary of Changes
-- A concise list of changes
+- A list of changes
 
 ## Links
-- [Link to story]()
-- [Link to sandbox]()
+- [Story]()
+- [Sandbox]()
 
 ## How to test 
-- Concise instructions if unclear
+- Concise instructions
 
 ## Screenshots
