@@ -51,8 +51,22 @@ The following table explains how we interpret each of the states for a Pivotal s
 
 ### Commits
 
-- Follow [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-  - (e.g) Prefix commits with `fix:`, `feat:`, `docs:` `chore:`
+Commits should conform to the [Conventional Commits spec](https://www.conventionalcommits.org/en/v1.0.0/). See the spec for a full list of types and these examples:
+  - `feat:` additional functionality was added to the code
+  - `fix:` logic was fixed/changed/updated (bug, etc)
+  - `refactor:` code was moved around but logic was not changed
+  - `test:` test (unit/integration/etc) or results of a test being conducted were added
+  - `chore:` ran repo command (rush/git/etc)
+
+The commit scope is optional but encouraged.  It should be the package name where applicable.
+
+```bash
+> git commit -m "feat(api-eth-tokens): ..."
+```
+
+In the example above it is very clear that this commit is a feature being added to the `api-eth-tokens` package.
+
+Some other things to note about your commit messages:
 - Have descriptive, meaningful commit messages
 - Spell check our commits so that they look good in our change log
 - Squash commits to clean log if necessary
