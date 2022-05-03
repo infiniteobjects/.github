@@ -7,7 +7,7 @@
 - 🧱 Check out our [UI Library Storybook](https://infiniteobjects.github.io/ui/) to get an idea of some of our shared components
 - 🤓 Browse our MonoRepo [docs](https://infiniteobjects.github.io/stack/) and [repo](https://github.com/infiniteobjects/stack) to explore some projects and get familiar with useful utils 
 - 📖 Refer to our [growing Wiki](https://github.com/infiniteobjects/.github/wiki) for additional pointers
-- 📌 Make sure to pin [this list of Open PRs](https://github.com/pulls?q=is%3Aopen+is%3Apr+archived%3Afalse+user%3Ainfiniteobjects+-author%3Aapp%2Fdependabot) tracking all repos
+- 📌 Make sure to pin [this list of Open PRs](https://github.com/pulls?q=is%3Apr+is%3Aopen+user%3Ainfiniteobjects+-label%3Adependencies+-is%3Adraft) tracking all repos
 - ✅ [Asana](https://app.asana.com/0/home/1200740753180000) can help you see some of the other teams and what they're working on
 
 ### What is Web3?
