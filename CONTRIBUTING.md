@@ -14,7 +14,7 @@ The following table explains how we interpret each of the states for a Pivotal s
 | Unstarted | When the story is created                                                                   |
 | Started   | When you pick up a story                                                                    |
 | Finished  | When the code for a story is considered complete by the author(s), and a PR has been opened |
-| Delivered | When the story is deployed, visible, or otherwise testable                                  |
+| Delivered | When the story is deployed, visible, or otherwise testable by following PR instructions     |
 | Accepted  | When the story has passed all tests, reviews, QA                                            |
 | Rejected  | When the story has failed one of the above                                                  |
 
