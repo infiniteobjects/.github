@@ -1,0 +1,37 @@
+name: Technical Debt
+description: Create a report to help us improve our codebase.
+title: '[Technical Debt] <title>'
+labels: ['code enhancement', needs triage']
+projects: ['infiniteobjects/5']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        "## Thank you for reporting technical debt!"
+  - type: input
+    id: technical_debt_summary
+    attributes:
+      label: What needs to be improved?
+      description: Please describe the technical debt in a short sentence.
+      placeholder: |
+        Example: "We need to clean up the code in the `src/components` directory."
+    validations:
+      required: true
+  - type: textarea
+    id: technical_debt_details
+    attributes:
+      label: Details
+      description: Please provide more information about the technical debt.
+  - type: dropdown
+    id: technical_debt_priority
+    attributes:
+      label: Priority
+      description: How important is to commit resources to this issue?
+      options:
+        - High
+        - Medium
+        - Low
+        - Cosmetic
+      default: 3
+    validations:
+      required: true

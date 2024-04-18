@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discussions
+    url: https://github.com/orgs/infiniteobjects/discussions
+    about: Please ask and answer questions here.
+  - name: Documentation
+    url: https://app.gitbook.com/o/ODOELBbB9g2seQ0IL15N/s/0dcF0gJt8lEF13USv9Z6/
+    about: Check out the developer Wiki.

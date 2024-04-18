@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest an idea for this project
+title: '[package-name] <title>'
+labels: ['feature', 'needs triage']
+projects: ['infiniteobjects/5']
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for suggesting a new feature!
+
+        👉 STEP 1: Write a concise but specific issue title in the box above.
+        Replace "package-name" with the project name.
+
+        For example, to suggest a feature for the "@infiniteobjects/core-library"
+        project, your title might look like:
+
+        `[core-library] Add a utility to generate SKU codes.`
+
+  - type: input
+    id: feature_request_summary
+    attributes:
+      label: Feature Summary
+      description: Please describe the feature in a short sentence.
+      placeholder: |
+        Example: "I would like to see a new button that allows users to print their own Instragram posts."
+    validations:
+      required: true
+  - type: textarea
+    id: feature_request_details
+    attributes:
+      label: Details
+      description: Please provide more information about the feature.
+  - type: textarea
+    id: feature_request_additional
+    attributes:
+      label: Additional Context
+      description: Is there anything else you would like to add? Links? References?
+  - type: textarea
+    id: feature_request_acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: Have you thought about how we can test this feature?
