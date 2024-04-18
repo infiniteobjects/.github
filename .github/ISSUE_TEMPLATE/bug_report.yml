@@ -35,7 +35,7 @@ body:
     id: bug_report_reproduction
     attributes:
       label: Steps to Reproduce
-      description: 'How do you trigger this bug? Please walk us through it step by step.'
+      description: How do you trigger this bug? Please walk us through it step by step.
       placeholder: |
         1. In this environment...
         2. With this config...

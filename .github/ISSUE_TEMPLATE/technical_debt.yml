@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        "## Thank you for reporting technical debt!"
+        ## Thank you for reporting technical debt!
   - type: input
     id: technical_debt_summary
     attributes:

@@ -15,7 +15,7 @@ body:
         For example, to suggest a feature for the "@infiniteobjects/core-library"
         project, your title might look like:
 
-        `[core-library] Add a utility to generate SKU codes.`
+        > `[core-library] Add a utility to generate SKU codes.`
 
   - type: input
     id: feature_request_summary
