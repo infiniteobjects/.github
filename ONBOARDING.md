@@ -3,7 +3,6 @@
 You're going to need to make sure you've been invited to all of these accounts
 
 - Google Account
-- Pivotal Tracker
 - Figma 
 - 1Password ("Web Dev" Vault)
 - Slack (especially developer channels, and the "@dev" User Group!)
